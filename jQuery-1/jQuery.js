@@ -99,7 +99,6 @@ $("#t").click(function(){
 
   $("#t").after("<div>new div</div>")
  
- 
  })
 
 

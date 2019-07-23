@@ -1,27 +1,40 @@
+
+$(document).ready(function() {
 // EXERCISE 1: Change Background
 // Change the background color of '#target' by script. 
+
+// $("#target").css("background-color","blue")
 
 
 // EXERCISE 2: Change Parent
 // Change the text in the span, a child of "#target"
 
-
+//$("#target span").html("emad ")
 
 
 // EXERCISE 3: Create Clone
 // Create a clone of the span in "#target" and position it under the origin.
 
+//$("#target span").clone().insertAfter(" span");
 
 // EXERCISE 4: Use Filter
 // Change background color of the second ".target"
 
 
+//$("div").eq(1).css("background-color","blue")
 
 // EXERCISE 5: Disable Buttons
 // Disable the button
 
+//$('.target button').prop('disabled', true);
+
+
+
 // EXERCISE 6: Uncheck CheckBoxes
 // Uncheck all checkboxes using jQuery
+
+//$('.target input').prop('checked', false);
+
 
 
 
@@ -29,15 +42,21 @@
 // Move "#child" from "#parent1" to "#parent2"
 
 
+//$('#parent2').append( $('#parent1>#child') );
+
 
 // EXERCISE 8: Select A Option in A Select Box
 // Select the second option in the selectbox by script
+//$("#target option").eq(1) .attr('selected', true)
 
 
 
 // EXERCISE 9: Change Size
 // Make "#target" double size
 
+// $("#target").css("width","300")
+// $("#target").css("height","200")
+//$("#target").css("transform","scale(2)")
 
 
 
@@ -45,19 +64,46 @@
 // Remove all children and text of "#target"
 
 
+//$( "div" ).remove( ".child" );
+
+//$( "div" ).empty();
+
 // Advanced part
 // EXERCISE 11: Delay
 // Show Alert with 1 second delay (Use "setTimeout")
 
+//setTimeout(alert("Hello jouza"), 1000);
 
 
 // EXERCISE 12: Count
 // Show the number of children in an alert
 
 
+//alert($( ".child" ).length)
+
 
 // EXERCISE 13: Animate
 // Make "#target" double size with animation
+
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // EXERCISE 14: Alternate Color
